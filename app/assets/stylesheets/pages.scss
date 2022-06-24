@@ -1,3 +1,77 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 30%, rgba(253,29,29,1) 40%);
+}
+
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: 3s;
+}
+img, i {
+  padding: 5px;
+}
+
+
+i, .fa-gem {
+  color: rgba(177, 177, 177, 0.686);
+  transition: 0.5s;
+}
+
+img:hover, i:hover, .fa-gem:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.fa-linkedin {
+  &:hover {
+    color: #0072b1;
+  }
+}
+
+.fa-instagram {
+  &:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+ }
+.fa-github {
+&:hover{
+  color: black;
+}
+}
+
+.fa-gem {
+  &:hover{
+    color: #9b111e;
+  }
+}
+.fa-python {
+  &:hover{
+    color: #00264D;
+  }
+}.fa-html5 {
+  &:hover{
+    color: #DD4B25;
+  }
+}
+.fa-css3-alt {
+  &:hover{
+    color: #254BDD;
+  }
+}
+.fa-js {
+  &:hover{
+    color: #EFD81D;
+  }
+}
+.fa-react {
+  &:hover{
+    color: #5ED3F3;
+  }
+}
