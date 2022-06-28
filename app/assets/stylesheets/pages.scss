@@ -27,11 +27,9 @@ img, i {
 i, .fa-gem {
   color: rgba(177, 177, 177, 0.686);
   transition: 0.5s;
-  justify-content: center;
-  align-items: center;
 }
 
-img:hover, i:hover {
+img:hover, i:hover, .fa-gem:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -82,4 +80,11 @@ img:hover, i:hover {
   &:hover{
     color: #5ED3F3;
   }
+}
+
+svg, i, img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
