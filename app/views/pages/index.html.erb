@@ -2,7 +2,6 @@
   <div class="row ">
     <div class="col-12 ">
       <div class="d-flex justify-content-center">
-        <h3 class="box sb13">Hello There</h1>
         <%= image_tag ['lucca.jpg', 'lucca2.jpg'].sample, class: "avatar" %>
       </div>
     </div>
@@ -31,11 +30,14 @@
     </div>
     <div class="col-12">
       <h2>Projects</h2>
-      <a target="_blank" href="#">
-        <h4>Let's go</h4>
-        <img width="75" src="https://letsgo-social.com.br/assets/logo-15c87c4add23bf582b9546e83cc613a644b914699e9c54a6a77bbb359b217da6.png" alt="letsgo">
-        <p></p>
-      </a>
+      <a target="_blank" href="https://letsgo-social.com.br/"> <h4> Let's go</h4> </a>
+      <div class="d-flex">
+
+        <a target="_blank" href="https://letsgo-social.com.br/">
+          <%= image_tag('logo.png', alt: 'letsgo', width: 75) %>
+        </a>
+        <p>Social app. With Let's go you can search events near you, see what your friends are doing and join them in an event. Built with Rails by four junior developers. Click here to enter in web site</p>
+      </div>
     </div>
     <div class="col-12 d-flex justify-content-center">
       <a target="_blank" href="https://github.com/lucca1998byu"><i class="fab fa-github fa-3x"></i></a>
