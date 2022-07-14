@@ -1,13 +1,21 @@
-<div class="container d-flex justify-content-center">
-  <div class="row ">
-    <div class="col-12 ">
+<div class="container d-flex justify-content-center mt-3">
+  <div class="row">
+    <div class="col-12">
       <div class="d-flex justify-content-center">
         <%= image_tag ['lucca.jpg', 'lucca2.jpg'].sample, class: "avatar" %>
       </div>
     </div>
+    <div class="col-12 d-flex justify-content-center mt-3">
+      <a target="_blank" href="https://wa.me/5511988445241"><i class="fab fa-whatsapp fa-3x"></i></a>
+      <a target="_blank" href="https://github.com/lucca1998byu"><i class="fab fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/luccadittrich"><i class="fab fa-linkedin fa-3x "></i></a>
+      <a target="_blank" href="https://www.instagram.com/lucca_1998/"><i class="fab fa-instagram fa-3x "></i></a>
+      <a target="_blank" href="mailto:lucca.dittrich@gmail.com"><i class="fas fa-at fa-3x"></i></a>
+    </div>
     <div class="col-12">
       <h2>About</h2>
       <p>Looking for my first oportunity as web develover</p>
+      <p>I recently finished a <strong>Web Development Bootcamp</strong> in June at <strong>Le Wagon</strong> in São Paulo. </p>
     </div>
     <div class="col-12">
       <h2>Skills</h2>
@@ -22,27 +30,40 @@
         <i class="fa-2x fab fa-html5"></i>
         <i class="fa-2x fab fa-css3-alt"></i>
         <i class="fa-2x fab fa-js"></i>
+        <i class="fa-2x postgre iconify" data-icon="akar-icons:postgresql-fill"></i>
+        <i class="fa-2x heroku iconify" data-icon="bxl:heroku"></i>
+        <i class="fa-2x bootstrap iconify" data-icon="akar-icons:bootstrap-fill"></i>
       </div>
     </div>
     <div class="col-12">
-      <h2>Interests</h2>
+      <h2>Learning</h2>
       <i class="fa-2x fab fa-react"></i>
     </div>
     <div class="col-12">
       <h2>Projects</h2>
-      <a target="_blank" href="https://letsgo-social.com.br/"> <h4> Let's go</h4> </a>
-      <div class="d-flex">
-
-        <a target="_blank" href="https://letsgo-social.com.br/">
+      <h4> Let's go</h4>
+      <div class="container m-0 p-0">
+        <a id="floated" target="_blank" href="https://letsgo-social.com.br/">
           <%= image_tag('logo.png', alt: 'letsgo', width: 75) %>
         </a>
-        <p>Social app. With Let's go you can search events near you, see what your friends are doing and join them in an event. Built with Rails by four junior developers. Click here to enter in web site</p>
+        <p>Social app. With Let's go you can search events near you, see what your friends are doing and join them in an event. Built with Rails by four junior developers. </p>
+        <p>Create a free account, enter in events, confirm presence and connect with friends.</p>
+        <a class="underline-text" target="_blank" href="https://letsgo-social.com.br/">
+          Click here to enter in website
+        </a>
       </div>
-    </div>
-    <div class="col-12 d-flex justify-content-center">
-      <a target="_blank" href="https://github.com/lucca1998byu"><i class="fab fa-github fa-3x"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/luccadittrich"><i class="fab fa-linkedin fa-3x "></i></a>
-      <a target="_blank" href="https://www.instagram.com/lucca_1998/"><i class="fab fa-instagram fa-3x "></i></a>
+      <h4>Rent For All</h4>
+      <div class="container m-0 p-0">
+        <a id="floated" target="_blank" href="https://letsgo-social.com.br/">
+          <%= image_tag('rent.png', alt: 'letsgo', width: 75) %>
+        </a>
+        <p>Marketplace. With Ren For All you can find an item you need without buying it. </p>
+        <p>Create a free account, enter in items, rent one, or put your own for rent.</p>
+        <a class="underline-text" target="_blank" href="https://rent-for-all.herokuapp.com/">
+          Click here to enter in website
+        </a>
+      </div>
     </div>
   </div>
 </div>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>

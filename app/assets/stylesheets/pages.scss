@@ -24,12 +24,12 @@ img, i {
 }
 
 
-i, .fa-gem {
+i, .fa-gem, .iconify {
   color: rgba(177, 177, 177, 0.686);
   transition: 0.5s;
 }
 
-img:hover, i:hover, .fa-gem:hover {
+img:hover, i:hover, .fa-gem:hover, .iconify:hover{
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -87,4 +87,50 @@ svg, i, img {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+.postgre {
+  &:hover{
+    color: #336791;
+  }
+}
+.heroku {
+  &:hover{
+    color: #400090;
+  }
+}
+
+.bootstrap {
+  &:hover{
+    color:#7510EC;
+  }
+}
+
+.fa-whatsapp {
+  &:hover{
+    color:#25D366;
+  }
+}
+
+#floated {
+  float: left;
+}
+
+a.underline-text {
+  margin-bottom: 0;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom:1px;
+  background-image: linear-gradient(#000, #000);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s; /*change after the size immediately*/
+  &:hover {
+    text-decoration: none;
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 1px;
+    color: #fff;
+  }
 }
