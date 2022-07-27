@@ -45,11 +45,17 @@ img:hover, i:hover, .fa-gem:hover, .iconify:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
- }
+}
 .fa-github {
 &:hover{
   color: black;
 }
+}
+
+.fa-at {
+  &:hover{
+    color: #000;
+  }
 }
 
 .fa-gem {
