@@ -5,7 +5,7 @@
         <%= image_tag ['lucca.jpg', 'lucca2.jpg'].sample, class: "avatar" %>
       </div>
     </div>
-    <div class="col-12 d-flex justify-content-center mt-3">
+    <div class="col-12 d-flex justify-content-center mt-3 mb-3">
       <a target="_blank" href="https://wa.me/5511988445241"><i class="fab fa-whatsapp fa-3x"></i></a>
       <a target="_blank" href="https://github.com/lucca1998byu"><i class="fab fa-github fa-3x"></i></a>
       <a target="_blank" href="https://www.linkedin.com/in/luccadittrich"><i class="fab fa-linkedin fa-3x "></i></a>
@@ -13,11 +13,21 @@
       <a target="_blank" href="mailto:lucca.dittrich@gmail.com"><i class="fas fa-at fa-3x"></i></a>
     </div>
     <div class="col-12">
+      <h2>Download Curriculum</h2>
+      <%= link_to 'Lucca.dittrich.en.pdf', download: 'lucca.dittrich.en.pdf', class:"btn btn-primary" do %>
+        <i class="fas fa-download">English</i>
+      <% end %>
+      <%= link_to 'Lucca.dittrich.pt.pdf', download: 'lucca.dittrich.pt.pdf', class:"btn btn-primary" do %>
+        <i class="fas fa-download">Portuguese</i>
+      <% end %>
+    </div>
+    <div class="col-12">
       <h2>About</h2>
-      <p>Looking for an opportunity to work with Ruby on Rails.
+      <p>Looking for my first opportunity to work with Ruby on Rails.
         I am open to work with other technologies. </p>
-      <p>I recently finished a <strong>Web Development Bootcamp</strong> in June at <strong>Le Wagon</strong> in São Paulo. </p>
-      <p></p>
+      <p>I recently finished a <strong>Web Development Bootcamp</strong> in June at <strong>Le Wagon</strong> in São Paulo,
+        and I am also looking for a Bachelor's Degree in Applied Technology in Brigham Young University </p>
+      <p>I am ready for new challenges and become a Developer</p>
     </div>
     <div class="col-12">
       <h2>Skills</h2>

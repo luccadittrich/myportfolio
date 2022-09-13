@@ -140,3 +140,11 @@ a.underline-text {
     color: #fff;
   }
 }
+
+.fa-download {
+  color: #fff;
+  &:hover {
+    transform: none;
+    transition: none;
+  }
+}
